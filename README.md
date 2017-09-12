@@ -1,1 +1,1 @@
-### ala-hub   [![Build Status](https://travis-ci.org/AtlasOfLivingAustralia/ala-hub.svg?branch=master)](https://travis-ci.org/AtlasOfLivingAustralia/ala-hub)
+### ala-hub   [![Build Status](https://travis-ci.org/bioatlas/ala-hub.svg?branch=master)](https://travis-ci.org/bioatlas/ala-hub)
