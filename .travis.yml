@@ -1,6 +1,6 @@
 language: groovy
 jdk:
-- oraclejdk7
+- openjdk7
 sudo: false
 before_install:
 - export TZ=Europe/Stockholm
