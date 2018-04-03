@@ -20,7 +20,7 @@ deploy:
   api_key:
     secure: WzjUkHWU2RSNGEigti9C2i3ok3p+6dMXrYto8NuDahdoQ1QHli1ISr02wadTxBtfWNh4avL9KNF108R4i7ECNHdr/koYhWVSC1NReb/DtdrHkupJRKwVEnovaPsAL/YKn1/Ntfc5PcddTpGbRDtm3dY9pVfG+NHpqonthQ5xclKRXZXfZcVyA2w15PD3A0AdCCuK6ESiYU1MxuZNA8qRGSsoYxx3ouaaRwf2amecAnVxlw1wFuH0YSkBpGKnGyUyvoQ0dfhrc+By6ppMbIy5yq7GN8X5NnKVqnOR2rorWcjAsdBP/aaKZSk+WAqikunw+F2G9MdHYCkP6KXpkP9fIymbaF5Z1Qma2EeaXULNhHyXqm4RlF3xRQOXGOo9Nr40ipa6qrXA5whFn+Mn6qpbYE3EggsJkL6IQhtWd+kt6WQWFGDCNRm8TQ8D52gVK1g9gpS3gcMsJOk5PMO2WYXqIz1p+ZiinhOWwD8wxFMYFsyRYmYuGR8ZERjfYyM1KwMSQzZt8aqPDJ3Ifzppijju7npI2EBnyBhfetLdH0U3QlYcQPu9lxXJsP5H2C/ySkeVWQb0YGvEKxAXFKCHOGogn9/owMXIvtCBP5YiOrfstgoNEGL+YccPdgOLM9k5KFZpjupZfWYzzGmHrcz2tI9GK+BB1p0GKNY6SZ7+Pb//YZs=
   file_glob: true
-  file: "build/lib/ala-hub-*.war"
+  file: "build/libs/ala-hub-*.war"
   skip_cleanup: true
   overwrite: true
   on:
