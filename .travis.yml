@@ -2,9 +2,6 @@ language: groovy
 jdk:
 - oraclejdk8
 sudo: false
-branches:
-  only:
-  - master
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
   - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
@@ -25,5 +22,5 @@ deploy:
   overwrite: true
   on:
     repo: bioatlas/ala-hub
-    all-branches: false
+    all-branches: true
     tags: true
